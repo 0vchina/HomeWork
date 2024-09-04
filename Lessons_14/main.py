@@ -19,6 +19,7 @@ def libruary(us1):
         else:
             ff = users.сheck_users(us1)
             if ff == False:
+                print('Выполняется выход...')
                 return 'exit'
             else:
                 y = input('Вы ходите взять книгу(Y) или сдать книгу(N)?')
